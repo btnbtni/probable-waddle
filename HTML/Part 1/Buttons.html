@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<div>
+    <img src="https://duckduckgo.com/i/10bd9541.png" alt="Mr. Robot">   <!-- Title picture -->
+    <p>On this page you can choose if you're a Darlene or a Dom, which is your favourite hacker and which foods you think Romero likes to eat.</p>
+
+    <form action="/submit-form-data">
+        <!-- Are you a Darlene or Dom question -->
+        <div>
+        <p>Are you a Darlene or a Dom?</p>
+        <label for="darlene-radio">
+            <input id="darlene-radio" value="darlene" type="radio" name="dom-or-darlene" checked>Darlene
+        </label>
+        <label for="dom-radio">
+            <input id="dom-radio" value="dom" type="radio" name="dom-or-darlene">Dom
+        </label>
+        </div>
+        <!-- Type in favourite hacker name-->
+        <div>
+        <p>Type in the name of your favourite hacker:</p>
+        <input type="text" placeholder="Hacker name">
+        </div>
+        <!-- Choose which foods Romero likes to eat-->
+        <div>
+            <p>Which of these foods do you think Romero likes to eat?</p>
+            <label for="pizza-radio">
+                <input id="pizza-radio" value="pizza" type="checkbox" name="foods">Pizza
+            </label>
+            <label for="donuts-radio">
+                <input id="donuts-radio" value="donuts" type="checkbox" name="foods">Donuts
+            </label>
+            <label for="snickers-radio">
+                <input id="snickers-radio" value="snickers" type="checkbox" name="foods">Snickers Ice Cream
+            </label>
+            <label for="chips-radio">
+                <input id="chips-radio" value="chips" type="checkbox" name="foods">Chips
+            </label>
+
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
+</html>
